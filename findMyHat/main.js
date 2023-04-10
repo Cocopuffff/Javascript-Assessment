@@ -119,7 +119,7 @@ const difficulty = () => {
             numOfHoles = 20;
             difficultyValid = true;
         } else {
-            input = prompt(`Enter (E, A, H) only`).toUpperCase();
+            hardness = prompt(`Enter (E, A, H) only`).toUpperCase();
         }
     }
 }
